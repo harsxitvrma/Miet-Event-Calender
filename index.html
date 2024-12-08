@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <title>Miet Event Calendar</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/desktop.css" />
+    <link rel="stylesheet" href="assets/css/menu.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS and Icons only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      .top-section,
+      .bottom-section {
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .top-section {
+        position: relative;
+        background-image: url(/assets/img/background-images/stageback_img2_enhanced_enhanced.png);
+        background-size: cover;
+        background-position: 50% 35%;
+        background-repeat: no-repeat;
+        height: 20em;
+        width: 100%;
+      }
+      .bottom-section {
+        background-size: cover;
+        background-position: 50% 35%;
+        background-repeat: no-repeat;
+        height: 20em;
+        width: 100%;
+        position: relative;
+        background-image: url(/assets/img/background-images/stageback_img2_enhanced_enhanced.png);
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="top-section">
+        <!-- <img src="" alt="Click Me" id="scrollImage"> -->
+      </div>
+      <div class="header-bg-image">
+        <nav class="navbar navbar-dark bg-dark d-lg-block d-none" id="sub-menu">
+          <ul class="navbar-nav" id="sub-menu-list">
+            <li class="nav-item sub-menu-icon">
+              <a
+                class="nav-link"
+                href="https://www.facebook.com/MIETGROUP/"
+                target="_self"
+              >
+                <img
+                  src="assets/img/icons/icons8-facebook-30.png"
+                  alt="Miet Fest Facebook page"
+                />
+              </a>
+            </li>
+            <li class="nav-item sub-menu-icon">
+              <a
+                class="nav-link"
+                href="https://x.com/miet_group"
+                target="_self"
+              >
+                <img
+                  src="assets/img/icons/icons8-twitter-30.png"
+                  alt="Miet Fest Twitter page"
+                />
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="navbar navbar-expand-lg py-3" id="main-menu">
+          <div class="container-fluid" id="navbar-container">
+            <a class="navbar-icon d-lg-none" href="#">
+              <img
+                src="assets/img/icons/icons8-menu-48.png"
+                alt="Menu Button"
+              />
+            </a>
+            <a class="navbar-icon d-none d-lg-block" href="https://miet.ac.in/">
+              <img
+                src="/assets/img/logo/miet_logo.webp"
+                alt="Miet Folklore Fest 2024"
+                height="80"
+              />
+            </a>
+            <div>
+              <img
+                src="/assets/img/background-images/Design 3.png"
+                alt="Folklore"
+                height="80"
+                title="Folklore Festa 2024"
+
+              />
+            </div>
+            <div class="d-lg-block menu-overlay" id="menu">
+              <i class="close-icon d-lg-none">X</i>
+              <ul class="navbar-nav gap-lg-5 menu-option" id="navbar">
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/Events.html">Events/Activites</a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSco9NsV-rjSlXwyJOozpcJFE0FiRZp5dhgZSrzH2TGXxoOAXg/viewform?usp=sharing">Registration</a>
+                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Guests</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" id="scrollImage">Sponsors</a>
+                </li>
+                <li class="nav-item" id="cause-btn">
+                  <a class="nav-link cause" href="https://docs.google.com/forms/d/e/1FAIpQLSco9NsV-rjSlXwyJOozpcJFE0FiRZp5dhgZSrzH2TGXxoOAXg/viewform?usp=sharing">FF Register</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <section class="mx-lg-auto" id="mobile-fest-section">
+          <div class="fest-intro">
+            <h1 class="intro-subtitle pt-5">2024 Edition</h1>
+            <img
+              src="assets/img/background-images/Designer (1).png"
+              alt="Miet Folklore Fest 2024"
+              class="intro-title pb-5 pt-0"
+            />
+          </div>
+          <p class="py-3 px-2 message border border-white border-3">
+            A fun festival where students from more than 80 universities who
+            believe in the value of sharing and openness and create positive
+            change gather and share ideas will be held in Meerut in December.
+          </p>
+          <h2 class="date-info pt-4 text-center text-lg-start">
+            Wednesday 25 Dec ~ Saturday 28 Dec
+          </h2>
+          <h3 class="event-location mb-0 pb-3 text-center text-lg-start">
+            @Meerut Institute of Engineering and technology, Meerut
+          </h3>
+        </section>
+      </div>
+    </header>
+    <main id="main-content">
+      <!-- Main Event -->
+      <section class="main-event-container">
+        <h2 class="text-center">Main Event</h2>
+        <hr class="hr" />
+        <div class="main-event row col-lg-12 m-auto gap-2"></div>
+        <div class="btn-container mx-auto text-center d-lg-none">
+          <button class="btn" type="submit" id="join">
+            Join Spring Fest 2024
+          </button>
+        </div>
+        <div class="d-lg-block d-none view-all">
+          <a href="#">View Full Events List ></a>
+        </div>
+      </section>
+      <!-- Featured Guest -->
+      <section class="featured-guest-container pb-0 pb-lg-5">
+        <h2 class="text-center">Featured Guest</h2>
+        <hr class="hr" />
+        <div class="featured-guest">
+          <div class="row">
+            <div class="guests row col-lg-10 m-auto"></div>
+          </div>
+        </div>
+      </section>
+      <!-- Sponsor -->
+      <section class="sponsor-container d-lg-block d-none py-5">
+        <h2 class="text-center">Sponsor</h2>
+        <hr class="hr" />
+        <div class="sponsor-list">
+          <div class="sponsor row col-lg-12 align-items-center"></div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="py-5">
+        <div class="copyright container pt-lg-4" id="bottomSection">
+          <div class="row text-center">
+            <a class="col-7 copyright-logo text-lg-start ps-lg-5"
+              ><img
+                src="/assets/img/background-images/Designer4.jpeg"
+                title="Folklore Festa 2024"
+                alt="Miet Spring Fest Logo"
+            /></a>
+            <h6 class="col-5 copyright-text align-self-center">
+              2024 Miet <br /><br class="d-lg-none" />Some rights reserved
+            </h6>
+          </div>
+        </div>
+
+        <!-- <div class="bottom-section" id="bottomSection">
+        </div> -->
+      </section>
+    </footer>
+    <script>
+      // Smooth scroll to the bottom section
+      const scrollImage = document.getElementById("scrollImage");
+      const bottomSection = document.getElementById("bottomSection");
+
+      scrollImage.addEventListener("click", () => {
+        bottomSection.scrollIntoView({ behavior: "smooth" });
+      });
+    </script>
+    <script src="assets/js/main.js" type="module"></script>
+    <!-- JavaScript Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

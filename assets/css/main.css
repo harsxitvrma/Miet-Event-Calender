@@ -1,0 +1,244 @@
+:root {
+  --primary-color: #333;
+  --secondary-color: #ec5242;
+  --neutral-color: #d3d3d3;
+  --white-color: #fff;
+  --primary-font: "Lato", sans-serif;
+}
+
+html * {
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+}
+
+.row,
+.row > * {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+header {
+  background-image: url("../img/background-images/bg-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.header2 {
+  background-image: url("/assets/img/background-images/backimg_for_events.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 60% 400%;
+  
+}
+
+.navbar-icon img {
+  width: 90%;
+}
+
+#mobile-fest-section {
+  padding-top: 0;
+}
+
+.fest-intro {
+  color: var(--secondary-color);
+}
+
+.fest-intro2 {
+  color: white;
+}
+
+.intro-subtitle {
+  color: #000000;
+  font-family: Georgia, serif;
+  font-size: 3.5rem; /* Adjust size as needed */
+  font-weight: 1500; /* Default weight */
+}
+
+.intro-title {
+  width: 100%;
+}
+
+.message {
+  line-height: 150%;
+  font-size: 13px;
+  height: auto;
+  text-align: justify;
+}
+
+.date-info {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Verdana", sans-serif;
+  color: #575757;
+}
+
+.event-location {
+  font-size: 16px;
+}
+
+section {
+  padding: 60px 24px;
+}
+
+.event-icon {
+  align-self: center;
+}
+
+.event-icon > img {
+  width: 64px;
+}
+
+.event-title {
+  text-align: center;
+  font-size: 14px;
+  align-self: center;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+.event-subtitle {
+  font-size: 0.75em;
+  align-self: center;
+  color: var(--white-color);
+}
+
+.main-event-container {
+  background-image: url(../img/background-images/event-bg-img.png);
+  background-repeat: repeat;
+  background-size: contain;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+.main-event {
+  justify-content: center;
+}
+
+.event {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 16px 0;
+}
+
+.hr {
+  color: var(--secondary-color);
+  width: 53px;
+  margin: 16px auto 54px;
+}
+
+.btn-container {
+  background-color: var(--secondary-color);
+  padding: 20px;
+  margin: 40px 0 0;
+  width: 300px;
+}
+
+#join {
+  color: var(--white-color);
+  font-size: 20px;
+}
+
+.guest-image > img {
+  width: 138px;
+}
+
+.guest-name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.guest-org {
+  font-size: 13px;
+  color: var(--secondary-color);
+}
+
+.guest-description {
+  font-size: 11px;
+}
+
+.guest-hr {
+  width: 23px;
+}
+
+/* About Section */
+.about-title {
+  font-size: 27px;
+  font-weight: 900;
+}
+
+.about-description {
+  color: #000;
+  font-size: 1.5em;
+  margin-bottom: 33px;
+  
+}
+
+.timeline-box {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(220, 199, 13, 0.284), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 0.875em;
+}
+
+.secondary-text {
+  color: var(--secondary-color);
+}
+.secondary-text2 {
+  color: white;
+}
+
+.timeline {
+  color: var(--secondary-color);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.star-hr {
+  font-size: 24px;
+}
+
+.previous-events-img {
+  width: 100%;
+  height: 88%;
+  transition: filter 0.7s;
+}
+
+.previous-events-img:hover {
+  filter: grayscale(100%);
+}
+
+.artist {
+  width: 85%;
+  background-color: var(--primary-color);
+}
+
+.testimonial-section {
+  border-bottom: 1px solid #dedede;
+}
+
+.testimonial {
+  font-family: cursive;
+  font-size: large;
+  font-weight: 900;
+}
+
+.sponsor-container {
+  background-color: var(--primary-color);
+  background-color: grey;
+}
+
+.sponsor-container > h2 {
+  color: var(--white-color);
+}
+
+footer {
+  background-color: var(--primary-color);
+
+}
+
+.copyright-logo > img {
+  width: 175px;
+}
+
+.copyright-text {
+  font-size: 12px;
+  color: var(--white-color);
+}
