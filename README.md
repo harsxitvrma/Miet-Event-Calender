@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Miet Folklore Fest
@@ -91,3 +92,7 @@ Give a ⭐️ if you like this project!
 - Template website: [CC Global Summit Korea 2015](https://summit.cckorea.org/main.html#)
 - Icons resource: [Icons8](https://icons8.com/)
 - Special Thanks to [Connor Follete](https://amtresu.github.io/) for sharing the website information which helped greatly to complete this project on time
+=======
+# Miet-Event-Calender
+Discover all the events and activities happening at MIET College in one place! From cultural festivals and tech fests to workshops and sports tournaments, stay updated with detailed schedules, descriptions, and venues. Never miss a moment—explore, participate, and celebrate the vibrant life at MIET!
+>>>>>>> dca17f6c8cfdd6d94c3adc69090de8b1a2c281f9
